@@ -1,0 +1,9 @@
+body{
+    background: black;
+}
+canvas{
+    position: absolute;
+}
+label, p{
+    color: white;
+}
