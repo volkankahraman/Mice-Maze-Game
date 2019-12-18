@@ -8,6 +8,8 @@
 
 2D Javascript maze game developed for software testing.
 
+Tüm Doküman Belgeleri : https://drive.google.com/open?id=1HXxSsRIPphfKe6nnvkMtUKcKoBUPLlQi
+
 Developed by [Volkan Kahraman](https://github.com/volkankahraman) ve [Ardanuc Akar](https://github.com/ardanucakar)
 
 ## 1.1 Amacı :
