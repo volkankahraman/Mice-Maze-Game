@@ -27,7 +27,7 @@ const gameCanvas = document.getElementById('canvas');
 const ctx = gameCanvas.getContext('2d');
 gameCanvas.width = document.body.clientWidth;
 gameCanvas.height = document.documentElement.scrollHeight;
-let tileSize = 64;
+let tileSize = 46;
 const gameArea = document.getElementById('gameArea');
 const startArea = document.getElementById('startArea');
 const resultArea = document.getElementById('resultArea');
@@ -210,7 +210,7 @@ function startAI() {
             clearInterval(myInterval)
             resultArea.classList.remove("d-none");
             gameArea.classList.add("d-none");
-            document.getElementById('message').innerHTML = 'Bilgisayar ' + player.moves + ' hamlede kazandı';
+            document.getElementById('message').innerHTML = 'Bilgisayar peyniri buldu.';
         } else {
             document.getElementById('moves').innerHTML = "Hamle Sayısı: " + player.moves;
         }

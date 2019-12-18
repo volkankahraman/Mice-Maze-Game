@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-
+let PORT = process.env.PORT || 3000; 
 app.use('/', express.static('public'));
 
 var clients = 0;
@@ -24,6 +24,6 @@ io.on('connection', function (socket) {
     })
 });
 
-http.listen(3000, function () {
+http.listen(PORT, function () {
     console.log('listening on localhost:3000');
 });
